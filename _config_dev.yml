@@ -1,8 +1,14 @@
 title: Dev Speedwagon Media Works
-baseurl: "/"
+baseurl: ""
 css_path: "/assets/css/main.css" # CSS para desarrollo
 
 include:
   - assets/sass
   - assets/scss
   - node_modules/bootstrap/scss/
+  
+collections:
+  autores:
+    people: true
+    output: true      
+collections_dir: my_collections

@@ -36,6 +36,9 @@ bundle exec jekyll build
 
 bundle exec jekyll serve --watch --incremental --port 4001
 
+
+bundle exec jekyll build --config _config_dev.yml
+
 bundle exec jekyll serve --watch --incremental --port 4001 --config _config_dev.yml
 
 http://127.0.0.1:4001/
