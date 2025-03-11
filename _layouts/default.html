@@ -7,7 +7,7 @@
 	<main class="">
 		{% if page.image %}
 		<div class="container-fluid d-flex align-items-center text-white text-shadow text-shadow-lg"
-			style="background-image: url(/assets/img/{{ page.image }} ); background-position: center center; background-repeat:no-repeat; background-size:cover; no-repeat; min-height: 200px">
+			style="background-image: url(/{{ site.baseurl }}/assets/img/{{ page.image }} ); background-position: center center; background-repeat:no-repeat; background-size:cover; no-repeat; min-height: 200px">
 			{% endif %}
 			<div class="container">
 				<div class="row my-3">
