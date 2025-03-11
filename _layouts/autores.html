@@ -27,41 +27,43 @@ layout: default
     </div>
   </div>
 </div>
-<div class="container-fluid bg-dark text-light shadow my-3">
+<div class="container-fluid bg-dark text-light shadow my-3 py-3">
   <div class="row">
-    <div class="col-md-6">
-      Conoce a los integrantes de nuestra gran familia
-      Editorial Speedwagon Media Works
-      <small class="fw-lighter">Período: 2023-2024</small>
-    </div>
-    <div class="col-md-6">
-
+    <div class="col-12 text-center">
+      <p>Conoce a los integrantes de nuestra gran familia
+      Editorial Speedwagon Media Works*</p>
+      <small class="fw-lighter">*Período: 2023-2024</small>
     </div>
   </div>
 </div>
 <div class="container-fluid my-3" id="cardsAutores">
-  <div class="row">
+  <div class="row my-3">
     <div class="col-12 text-center lh-1">
       <h2 class="h4 lh-1">Nuestro Equipo</h2>
       <h2 class="h1 lh-1">Speedsters</h2>
     </div>
   </div>
-  <div class="row" id="listaAutores">
+  <div class="row my-3" id="listaAutores">
     {% for autor in site.autores %}
     <div class="col-6 col-md-3">
       <div class="card d-flex mb-3">
-        <a href="/{{ site.baseurl }}/{{ autor.url }}" class="">
+        <a href="{{ autor.url }}" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
           <div class="card-header">
             <h4>
               {{ autor.title }}
             </h4>
+            <small class="text-muted fw-lighter">{{ autor.paisAutor}}</small>
           </div>
+          {% if autor.posicion %}
           <div class="card-footer">
             <p>{{ autor.posicion }}</p>
           </div>
+          {% endif %}
+          {% if autor.selloAutor %}
           <div class="card-footer">
             <p>{{ autor.selloAutor}}</p>
           </div>
+          {% endif %}
         </a>
       </div>
     </div>
