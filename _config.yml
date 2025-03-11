@@ -53,7 +53,18 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+exclude:
+  - node_modules
+  - webpack.config.js
+  - package.json
+  - package-lock.json
+  - assets/js
+  - assets/scss
 
+include:
+  - assets/js/bundle.js
+  - assets/css/main.css
+  
 collections:
   autores:
     people: true
