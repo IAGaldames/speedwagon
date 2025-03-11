@@ -3,6 +3,7 @@ layout: autor
 title: Carol Fernández
 posicion: 
 generosAutor: Fantasía
+selloAutor:
 librosAutor: {a,b,c}
 imagenAutor:
 

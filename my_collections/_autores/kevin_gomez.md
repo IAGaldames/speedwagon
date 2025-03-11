@@ -3,6 +3,7 @@ layout: autor
 title: Kevin Gómez
 posicion: Autor
 generosAutor: Cómic
+selloAutor:
 librosAutor: {a,b,c}
 imagenAutor:
 

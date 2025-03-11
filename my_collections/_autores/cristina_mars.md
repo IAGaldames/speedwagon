@@ -3,6 +3,7 @@ layout: autor
 title: Cristina Mars
 posicion: 
 generosAutor: Narrativa
+selloAutor:
 librosAutor: {a,b,c}
 imagenAutor:
 

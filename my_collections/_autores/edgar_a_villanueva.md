@@ -3,6 +3,7 @@ layout: autor
 title: Edgar A. Villanueva
 posicion: 
 generosAutor: Terror
+selloAutor:
 librosAutor: {a,b,c}
 imagenAutor:
 

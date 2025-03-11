@@ -3,6 +3,7 @@ layout: autor
 title: Luisa Apaza
 posicion: Ilustradora
 generosAutor: Cómic
+selloAutor:
 librosAutor: {a,b,c}
 imagenAutor:
 

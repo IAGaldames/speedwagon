@@ -3,6 +3,7 @@ layout: autor
 title: José Jáuregui O.
 posicion: 
 generosAutor: Cómic
+selloAutor:
 librosAutor: {a,b,c}
 imagenAutor:
 

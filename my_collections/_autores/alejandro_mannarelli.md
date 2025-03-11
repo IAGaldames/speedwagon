@@ -3,6 +3,7 @@ layout: autor
 title: Alejandro Mannarelli
 posicion: 
 generosAutor: Romance
+selloAutor:
 librosAutor: {a,b,c}
 imagenAutor:
 

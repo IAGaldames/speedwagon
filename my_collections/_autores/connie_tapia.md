@@ -3,6 +3,7 @@ layout: autor
 title: Connie Tapia
 posicion: 
 generosAutor: Narrativa
+selloAutor:
 librosAutor: {a,b,c}
 imagenAutor:
 

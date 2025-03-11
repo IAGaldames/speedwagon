@@ -3,6 +3,7 @@ layout: autor
 title: Paradox
 posicion: Ilustrador
 generosAutor: Cómic
+selloAutor:
 librosAutor: {a,b,c}
 imagenAutor:
 

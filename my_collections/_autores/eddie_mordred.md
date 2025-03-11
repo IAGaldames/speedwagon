@@ -3,6 +3,7 @@ layout: autor
 title: Sowon Kimdred
 posicion: Autor
 generosAutor: Fantasía
+selloAutor:
 librosAutor: {a,b,c}
 imagenAutor:
 

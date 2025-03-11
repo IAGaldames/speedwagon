@@ -3,6 +3,7 @@ layout: autor
 title: Shonen Bat
 posicion: Editor
 generosAutor: Cómic
+selloAutor:
 librosAutor: {a,b,c}
 imagenAutor:
 

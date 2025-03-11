@@ -3,6 +3,7 @@ layout: autor
 title: Sowon Kim
 posicion: 
 generosAutor: Fantasía
+selloAutor:
 librosAutor: {a,b,c}
 imagenAutor:
 

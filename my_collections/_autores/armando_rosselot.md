@@ -3,6 +3,7 @@ layout: autor
 title: Armando Rosselot
 posicion: 
 generosAutor: Ciencia Ficción
+selloAutor:
 librosAutor: {a,b,c}
 imagenAutor:
 
