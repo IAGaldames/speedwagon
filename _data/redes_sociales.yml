@@ -1,0 +1,61 @@
+# social links
+
+redesSociales:
+  - redUrl: instagram.com
+    redSidebar: true
+    redUsername: speedwagon_media_works
+    redIcon: fab fa-instagram
+
+  - redUrl: facebook.com
+    redSidebar: true
+    redUsername: SPEEDWAGONmediaworks
+    redIcon: fab fa-facebook-square
+
+  - redUrl: buscalibre.pe
+    redSidebar: true
+    redUsername: libros/editorial/speedwagon-media-works
+    redIcon: fa-solid fa-paper-plane
+
+  - redUrl: wa.me
+    redSidebar: true
+    redUsername: 51946414953
+    redIcon: fa-brands fa-whatsapp
+
+  - redUrl: linkedin.com/in
+    redSidebar: false
+    redUsername: 
+    redIcon: fab fa-linkedin
+
+  - redUrl: github.com
+    redSidebar: false
+    redUsername: 
+    redIcon: fab fa-github-square
+
+  - redUrl: behance.com
+    redSidebar:
+    redUsername: 
+    redIcon: fab fa-behance-square
+
+  - redUrl: twitter.com
+    redSidebar: false
+    redUsername: 
+    redIcon: fab fa-twitter-square
+
+  - redUrl: flickr.com/photos
+    redSidebar: false
+    redUsername: 
+    redIcon: fab fa-flickr
+
+  - redUrl: pinterest.com
+    redSidebar: false
+    redUsername: 
+    redIcon: fab fa-pinterest
+
+  - redUrl: youtube.com
+    redSidebar: true
+    redUsername: "channel/UCbuzaiuntMWQlyR_tQ1EDHQ"
+    redIcon: fab fa-youtube
+
+
+
+

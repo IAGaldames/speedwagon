@@ -1,0 +1,37 @@
+# social links
+
+sellosSpeedwagon:
+  - nombreSello: Kaneda
+    generoSello: Ciencia ficción
+    directorSello: Javier Cuevas Castillo
+    urlSello: /kaneda
+
+  - nombreSello: Carnivale
+    generoSello: Terror
+    directorSello: Hamev
+    urlSello:
+
+  - nombreSello: 
+    generoSello: Romance
+    directorSello: 
+    urlSello: /romance
+
+  - nombreSello:
+    generoSello: Cómics/Manga
+    directorSello: 
+    urlSello: /comics
+
+  - nombreSello:
+    generoSello: Fantasía
+    directorSello: 
+    urlSello: /fantasia
+
+  - nombreSello:
+    generoSello: Ensayo
+    directorSello: 
+    urlSello: /ensayo
+
+  - nombreSello:
+    generoSello: Antologías
+    directorSello:    
+    urlSello: /antologias

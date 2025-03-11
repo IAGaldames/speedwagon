@@ -1,0 +1,23 @@
+{
+  "name": "speedwagon",
+  "version": "1.0.0",
+  "description": "sitio web speedwagon media works",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://IgnacioGaldames@bitbucket.org/iagaldames/speedwagon.git"
+  },
+  "author": "I.A. Galdames",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/iagaldames/speedwagon/issues"
+  },
+  "homepage": "https://bitbucket.org/iagaldames/speedwagon#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "jekyll": "^3.0.0-beta1"
+  }
+}

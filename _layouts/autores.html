@@ -1,0 +1,67 @@
+---
+layout: default
+---
+<div class="container-fluid  bg-white text-light-subtle py-3" id="introAutores">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 d-flex">
+        <div class=" p-3">
+          <h3>Speedsters</h3>
+          <p> Somos una editorial peruana que publica autores peruanos conteporáneos de distintas regiones del país.</p>
+        </div>
+
+      </div>
+      <div class="col-md-4 d-flex">
+        <div class=" p-3">
+          <h3>Narrativa</h3>
+          <p>Exploran temas actuales en donde la tecnología, el terror, la fantasía y la revaloración de la identidad
+            forman parte de cada historia.</p>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex">
+        <div class=" p-3">
+          <h3>Sin fronteras</h3>
+          <p>Además, contamos con autores extranjeros de Chile, Ecuador, Argentina y Corea del Sur.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-dark text-light shadow my-3">
+  <div class="row">
+    <div class="col-md-6">
+      Conoce a los integrantes de nuestra gran familia
+      Editorial Speedwagon Media Works
+      <small class="fw-lighter">Período: 2023-2024</small>
+    </div>
+    <div class="col-md-6">
+
+    </div>
+  </div>
+</div>
+<div class="container-fluid my-3" id="cardsAutores">
+  <div class="row">
+    <div class="col-12 text-center lh-1">
+      <h2 class="h4 lh-1">Nuestro Equipo</h2>
+      <h2 class="h1 lh-1">Speedsters</h2>
+    </div>
+  </div>
+  <div class="row" id="listaAutores">
+    {% for autor in site.autores %}
+    <div class="col-6 col-md-3">
+      <div class="card d-flex mb-3">
+        <a href="{{ autor.url }}" class="">
+          <div class="card-header">
+            <h4>
+              {{ autor.title }}
+            </h4>
+          </div>
+          <div class="card-footer">
+            <p>{{ autor.posicion }}</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
