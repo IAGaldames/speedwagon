@@ -2,14 +2,14 @@
   <div class="row">
     <div class="col-12">
       <ul class="list-group list-group-flush">
-        {% for selloEditorial in site.data.sellos_editoriales.sellosSpeedwagon %} {% if selloEditorial.generoSello %}
-        <li class="list-group-item list-group-item-action list-group-item-dark">
-          <a href="{{ site.baseurl }}{{ selloEditorial.urlSello }}" class="">
-            {{ selloEditorial.generoSello }}
+        {% for sello in site.sellos %}
+        <li class="list-group-item list-group-item-action list-group-item-dark bg-dark text-light">
+          <a href="{{ site.baseurl }}{{ sello.url }}" class="">
+            {{ sello.title }} 
           </a>
           
         </li>
-        {% endif %} {% endfor %}
+       {% endfor %}
       </ul>
     </div>
   </div>

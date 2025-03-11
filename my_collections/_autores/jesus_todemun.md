@@ -8,6 +8,4 @@ paisAutor: Chile
 selloAutor: Kaneda
 librosAutor: {a,b,c}
 imagenAutor:
-
 ---
-

@@ -8,6 +8,4 @@ paisAutor: Corea del sur
 selloAutor:
 librosAutor: {a,b,c}
 imagenAutor:
-
 ---
-
