@@ -43,7 +43,7 @@ layout: default
     {% for sello in site.sellos %}
     <div class="col-6 col-md-3">
       <div class="card d-flex mb-3">
-        <a href="{{ sello.url }}" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+        <a href="{{ site.baseurl }}{{ sello.url }}" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
           <div class="card-header">
             <h4>
               {{ sello.title }}
