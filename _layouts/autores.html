@@ -50,7 +50,7 @@ layout: default
     {% for autor in site.autores %}
     <div class="col-6 col-md-3">
       <div class="card d-flex mb-3">
-        <a href="{{ autor.url }}" class="">
+        <a href="/{{ site.baseurl }}/{{ autor.url }}" class="">
           <div class="card-header">
             <h4>
               {{ autor.title }}
