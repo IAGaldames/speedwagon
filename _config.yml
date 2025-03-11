@@ -23,7 +23,7 @@ email: speedwagon.mediaworks@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Editorial especializada en literatura contemporánea. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ignaciogaldames.com/speedwagon" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://iagaldames.github.io/speedwagon/" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_username: 
 github_username:  
@@ -64,7 +64,7 @@ exclude:
 include:
   - assets/js/bundle.js
   - assets/css/main.css
-  
+
 collections:
   autores:
     people: true
