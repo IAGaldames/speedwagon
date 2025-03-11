@@ -36,6 +36,8 @@ bundle exec jekyll build
 
 bundle exec jekyll serve --watch --incremental --port 4001
 
+bundle exec jekyll serve --watch --incremental --port 4001 --config _config_dev.yml
+
 http://127.0.0.1:4001/
 
 sass --style=expanded --color --watch assets/scss/main.scss assets/css/main.css 
