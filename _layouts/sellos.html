@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<div class="container-fluid  bg-white text-light-subtle py-3" id="introsellos">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 d-flex">
+        <div class=" p-3">
+          <h3>Speedsters</h3>
+            <p>Nuestros sellos editoriales abarcan una amplia gama de géneros literarios, cada uno con su propia identidad y enfoque distintivo:</p>
+            <ul>
+            <li><strong>Terror:</strong> Historias que te mantendrán al borde del asiento, explorando los rincones más oscuros de la imaginación humana.</li>
+            <li><strong>Ciencia Ficción:</strong> Narrativas que desafían los límites de la realidad, transportándote a futuros posibles y mundos alternativos.</li>
+            <li><strong>Fantasía:</strong> Relatos mágicos y épicos que te llevarán a tierras encantadas y aventuras inolvidables.</li>
+            <li><strong>Cómic & Manga:</strong> Obras visuales que combinan arte y narrativa en una experiencia única y cautivadora.</li>
+            <li><strong>Romance:</strong> Historias de amor que exploran las complejidades de las relaciones humanas y los lazos emocionales.</li>
+            <li><strong>Antologías:</strong> Colecciones de relatos que ofrecen una variedad de voces y estilos en un solo volumen.</li>
+            <li><strong>Ensayo:</strong> Textos que invitan a la reflexión y el análisis sobre diversos temas de interés.</li>
+            <li><strong>General:</strong> Obras que no se encasillan en un solo género, ofreciendo una diversidad de experiencias literarias.</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-dark text-light shadow my-3 py-3">
+  <div class="row">
+    <div class="col-12 text-center">
+      <p>Conoce los sellos editoriales de
+      Editorial Speedwagon Media Works*</p>
+      <small class="fw-lighter">*Período: 2023-2024</small>
+    </div>
+  </div>
+</div>
+<div class="container-fluid my-3" id="cardssellos">
+  <div class="row my-3">
+    <div class="col-12 text-center lh-1">
+      <h2 class="h4 lh-1">Nuestro Equipo</h2>
+      <h2 class="h1 lh-1">Speedsters</h2>
+    </div>
+  </div>
+  <div class="row my-3" id="listasellos">
+    {% for sello in site.sellos %}
+    <div class="col-6 col-md-3">
+      <div class="card d-flex mb-3">
+        <a href="{{ sello.url }}" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+          <div class="card-header">
+            <h4>
+              {{ sello.title }}
+            </h4>
+            <small class="text-muted fw-lighter">{{ sello.paissello}}</small>
+          </div>
+          {% if sello.posicion %}
+          <div class="card-footer">
+            <p>{{ sello.posicion }}</p>
+          </div>
+          {% endif %}
+          {% if sello.sellosello %}
+          <div class="card-footer">
+            <p>{{ sello.sellosello}}</p>
+          </div>
+          {% endif %}
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

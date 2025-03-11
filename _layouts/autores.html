@@ -47,7 +47,7 @@ layout: default
     {% for autor in site.autores %}
     <div class="col-6 col-md-3">
       <div class="card d-flex mb-3">
-        <a href="{{ autor.url }}" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+        <a href="{{ site.baseurl }}{{ autor.url }}" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
           <div class="card-header">
             <h4>
               {{ autor.title }}

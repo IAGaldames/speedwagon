@@ -9,6 +9,10 @@ include:
   
 collections:
   autores:
-    people: true
+    autor: true
     output: true      
+  sellos:
+    sello: true
+    output: true   
+    
 collections_dir: my_collections
