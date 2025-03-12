@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<section class="container-fluid" id="cardsLibros">
+  <div class="row">
+    <aside class="col-md-3">
+      <div class="bg-light rounded p-3 m-3">
+        <h2 class="h2">Nuestros Sellos</h2>
+        <div class="mb-3">
+          {% include lista-generos-sellos.html %}
+        </div>
+        <a href="{{ site.baseurl }}/sellos" class="btn btn-danger rounded-pill">ver más</a>
+      </div>
+    </aside>
+    <article class="col-md-9">
+      <div class="row bg-light p-3 m-3 rounded">
+        <div class="col-12 text-center lh-1 mb-3">
+          <h2 class="h1 lh-1">Nuestros Libros</h2>
+        </div>
+        {% for libro in site.libros %}
+        {% include card-libro.html %}
+        {% endfor %}
+      </div>
+    </article>
+  </div>
+</section>

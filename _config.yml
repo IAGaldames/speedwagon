@@ -72,5 +72,8 @@ collections:
   sellos:
     sello: true
     output: true 
+  libros:
+    libro: true
+    output: true 
 
 collections_dir: my_collections

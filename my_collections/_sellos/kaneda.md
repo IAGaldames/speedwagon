@@ -3,7 +3,6 @@ layout: sello
 title: Kaneda
 directorSello: Javier Cuevas Contreras
 logoSello:
-subtitle: 'Director: Javier Cuevas Contreras'
 generoSello: Ciencia Ficción
 image: cabecera_kaneda.jpg
 ---
