@@ -6,8 +6,8 @@ layout: default
     <div class="row">
       <div class="col-md-12 d-flex">
         <div class=" p-3">
-          <h3>Speedsters</h3>
-            <p>Nuestros sellos editoriales abarcan una amplia gama de géneros literarios, cada uno con su propia identidad y enfoque distintivo:</p>
+          <h3>Géneros</h3>
+            <p>Nuestros géneros editoriales abarcan una amplia gama de géneros literarios, cada uno con su propia identidad y enfoque distintivo:</p>
             <ul class="list-group list-group-flush">
             <li class="list-group-item"><strong>Terror:</strong> Historias que te mantendrán al borde del asiento, explorando los rincones más oscuros de la imaginación humana.</li>
             <li class="list-group-item"><strong>Ciencia Ficción:</strong> Narrativas que desafían los límites de la realidad, transportándote a futuros posibles y mundos alternativos.</li>
@@ -23,7 +23,7 @@ layout: default
     </div>
   </div>
 </div>
-<div class="container-fluid bg-dark text-light shadow my-3 py-3">
+<div class="container-fluid bg-dark text-light shadow py-3">
   <div class="row">
     <div class="col-12 text-center">
       <p>Conoce los sellos editoriales de
@@ -32,23 +32,25 @@ layout: default
     </div>
   </div>
 </div>
-<div class="container-fluid my-3" id="cardssellos">
+<div class="container-fluid py-3" id="cardssellos">
   <div class="row my-3">
     <div class="col-12 text-center lh-1">
-      <h2 class="h4 lh-1">Nuestro Equipo</h2>
-      <h2 class="h1 lh-1">Speedsters</h2>
+      <h2 class="h1 lh-1">Nuestros Sellos</h2>
     </div>
   </div>
   <div class="row my-3" id="listasellos">
     {% for sello in site.sellos %}
     <div class="col-6 col-md-3">
       <div class="card d-flex mb-3">
-        <a href="{{ site.baseurl }}{{ sello.url }}" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+       
           <div class="card-header">
-            <h4>
+           <small class="text-danger text-uppercase fw-bolder text-small"> {{ sello.generoSello}}</small>
+           <a href="{{ site.baseurl }}{{ sello.url }}" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+            <h4 class="text-black">
               {{ sello.title }}
             </h4>
-            <small class="text-muted fw-lighter">{{ sello.paissello}}</small>
+          </a>
+        
           </div>
           {% if sello.posicion %}
           <div class="card-footer">
@@ -60,7 +62,7 @@ layout: default
             <p>{{ sello.sellosello}}</p>
           </div>
           {% endif %}
-        </a>
+       
       </div>
     </div>
     {% endfor %}

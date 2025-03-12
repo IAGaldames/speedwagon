@@ -11,16 +11,16 @@
 			{% endif %}
 			<div class="container">
 				<div class="row my-3">
-					<div class="col-12 text-center" id="title">
+					<div class="col-12 text-center lh-1" id="title">
 						{% if page.title %}
-						<h1 class="display-1 text-capitalize " id="page-title"><b>{{ page.title}}</b></h1>
+						<h1 class="display-1 text-capitalize lh-1" id="page-title"><b>{{ page.title}}</b></h1>
 						{% else %}
-						<h1 class="display-1 text-capitalize " id="site-title"><b>{{ site.title}}</b></h1>
+						<h1 class="display-1 text-capitalize lh-1" id="site-title"><b>{{ site.title}}</b></h1>
 						{% endif %}
 					</div>
 					{% if page.subtitle %}
 					<div class="col-12 text-center mb-3" id="subtitle">
-						<h2 class="h2" id="page-subtitle">{{ page.subtitle}}</h2>
+						<h2 class="h2 lh-1" id="page-subtitle">{{ page.subtitle}}</h2>
 					</div>
 					{% endif %}
 				</div>
