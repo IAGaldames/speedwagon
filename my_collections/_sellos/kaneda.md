@@ -5,6 +5,7 @@ directorSello: Javier Cuevas Contreras
 logoSello:
 subtitle: 'Director: Javier Cuevas Contreras'
 generoSello: Ciencia Ficción
+image: cabecera_kaneda.jpg
 ---
 Sello especializado en la ciencia ficción perteneciente a la editorial Speedwagon Media Works dirigido por Javier Cuevas Castillo.
 Kaneda inicia sus funciones oficialmente el día 23 de julio del año 2024 presentándose de manera oficial en la 28 feria internacional del libro en Lima.

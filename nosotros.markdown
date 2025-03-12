@@ -1,6 +1,6 @@
 ---
-layout: full-page
-image: speedwagoncover.jpg
+layout: contacto
+image: cabecera_nosotros.jpg
 title: Sobre nosotros
 ---
 
