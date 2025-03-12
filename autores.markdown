@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: autores
-image: speedwagoncover.jpg
 title: Nuestros Autores
+image: speedwagoncover.jpg
 ---

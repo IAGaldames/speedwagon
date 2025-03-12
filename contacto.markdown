@@ -3,8 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: contacto
+image: cabecera_contacto.jpg
 title: Contacto
-image: contacto.jpg
 ---
 ## Contáctanos
 

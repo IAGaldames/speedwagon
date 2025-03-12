@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: sellos
-image: speedwagoncover.jpg
+image: portada_sellos.jpg
 title: Nuestros Sellos
 ---

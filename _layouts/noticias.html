@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="container bg-dark text-light">
+  <div class="row">
+    <div class="col-md-12 my-3">
+      <h1>Últimas Noticias:</h1>
+    </div>
+
+    {% for post in site.posts %}
+    <div class="col-md-3 mb-3">
+
+      <div class="card d-flex h-100">
+        <div class="card-header">
+          <small class="text-danger text-uppercase fw-bolder text-small">
+            <h6> <b>{{ post.categories[0] }}</b></h6>
+          </small>
+          <div class="card-title text-capitalize">
+            <a href="{{ post.url }}"
+              class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+              <h4 class="fw-regular text-black">{{ post.title }}</h4>
+            </a>
+          </div>
+        </div>
+        <a href="{{ post.url }}"
+          class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover h-100">
+          <div class="card-body text-muted">
+            {{ post.excerpt }}
+            <span class="text-right">... ver más</span>
+          </div>
+        </a>
+        <div class="card-footer">
+          <small class="text-muted text-lowercase fw-lighter text-small">{{ post.date | date: '%Y-%m-%d' }}</small> <br>
+          {% for tags in post.tags %}
+          <small class="text-muted text-lowercase fw-regular text-small">{{ tags }} - </small>
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
+    {% endfor %}
+  </div>
+</div>

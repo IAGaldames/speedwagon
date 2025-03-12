@@ -3,8 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: contacto
+image: portada_manuscritos.jpg
 title: Recepción de manuscritos
-image: manuscritos.jpg
 ---
 ## Recepción
 Solo aceptamos la recepción de manuscritos completos. Por favor, asegúrese de que su envío esté terminado y revisado antes de enviarlo. No aceptamos manuscritos generados o asistidos por inteligencia artificial. Agradecemos su comprensión y esperamos recibir su trabajo.
