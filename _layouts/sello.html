@@ -9,17 +9,22 @@ layout: default
     </div>
   </div>
 </section>
-<section class="container-fluid bg-light" id="sello">
-  <div class="container">
-    <div class="row my-3 py-3">
-      <div class="col-12 mb-3">
-        <h3 class="h3">Libros {{page.title}}</h3>
-      </div>
-      {% for libro in site.libros %}
-        {% if libro.selloLibro == page.title  %}
-          {% include card-libro.html %}
+<section class="container-fluid bg-light py-3" id="sello">
+  <div class="row">
+    <div class="col-12 mb-3 text-center">
+      <h2 class="h2">Libros {{page.title}}</h3>
+    </div>
+  </div>
+  <div class="row">
+    {% include aside-sellos.html %}
+    <div class="col-md-9">
+      <div class="row">
+        {% for libro in site.libros %}
+        {% if libro.selloLibro == page.title %}
+        {% include card-libro.html %}
         {% endif %}
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </section>
