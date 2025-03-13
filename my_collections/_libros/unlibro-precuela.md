@@ -1,8 +1,8 @@
 ---
 layout: libro
-title: un libro
+title: 'SAGA un libro: LA PRECUELA.'
 selloLibro: Kaneda
-autorLibro: Jeremy Torres-Montero
+autorLibro: L.I. Psum
 portadaLbro: libro.jpg
 heroLibro: hero-libro.png
 prcioLibro: 45
@@ -10,6 +10,7 @@ buscalibreLibro:
 qrLibro: 
 isbnLibro:
 descargaLibro: unlibo.pdf
-fecha-lanzamientoLibro: 2025-03-01
+fecha-lanzamientoLibro: 2025-03-04
 ---
+LYa a esta altura, por qué no.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui aspernatur explicabo ex consequuntur repudiandae fuga illum, accusantium dolores nulla reprehenderit doloremque non natus, ut alias hic iste voluptatem, magnam amet.

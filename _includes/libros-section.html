@@ -1,0 +1,25 @@
+<section class="container-fluid bg-light py-3" id="{{ include.section_id }}">
+  <div class="row">
+    <div class="col-12 mb-3 text-center">
+      <h2 class="h2">{{ include.titulo }}</h2>
+    </div>
+  </div>
+  <div class="row">
+    {% include aside-sellos.html %}
+    <div class="col-md-9">
+      <div class="row">
+        {% for libro in site.libros %}
+          {% if include.filtro == "autor" and libro.autorLibro == page.title %}
+            {% include card-libro.html %}
+          {% elsif include.filtro == "autorLibro" and libro.autorLibro == page.autorLibro %}
+            {% include card-libro.html %}
+          {% elsif include.filtro == "sello" and libro.selloLibro == page.title %}
+            {% include card-libro.html %}
+          {% elsif include.filtro == "todos" %}
+            {% include card-libro.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

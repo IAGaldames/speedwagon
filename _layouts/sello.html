@@ -2,29 +2,7 @@
 layout: default
 ---
 
-<section class="container" id="sello">
-  <div class="row my-3">
-    <div class="col-md-10 mx-auto rounded shadow p-3 bg-light">
-      {{ content }}
-    </div>
-  </div>
-</section>
-<section class="container-fluid bg-light py-3" id="sello">
-  <div class="row">
-    <div class="col-12 mb-3 text-center">
-      <h2 class="h2">Libros {{page.title}}</h3>
-    </div>
-  </div>
-  <div class="row">
-    {% include aside-sellos.html %}
-    <div class="col-md-9">
-      <div class="row">
-        {% for libro in site.libros %}
-        {% if libro.selloLibro == page.title %}
-        {% include card-libro.html %}
-        {% endif %}
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</section>
+{% include container.html %}
+
+{% assign titulo_libros = "Libros " | append: page.title %}
+{% include libros-section.html section_id="sello" titulo=titulo_libros filtro="sello" %}

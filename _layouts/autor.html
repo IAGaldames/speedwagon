@@ -1,11 +1,7 @@
 ---
 layout: default
 ---
+{% include container.html %}
 
-<section class="container">
-  <div class="row my-3">
-    <div class="col-md-10 mx-auto rounded shadow p-3 bg-light">
-      {{ content }}
-    </div>
-  </div>
-</section>
+{% assign titulo_libros = "Libros por " | append: page.title %}
+{% include libros-section.html section_id="libros" titulo=titulo_libros filtro="autor" %}

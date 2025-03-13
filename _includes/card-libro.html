@@ -1,25 +1,20 @@
-<div class="col-6 col-md-3">
-  <div class="card g-white d-flex mb-3">
-    <div class="card-header">
-      {% if libro.selloLibro %}
-      <small class="text-danger text-uppercase fw-bolder text-small">
-        {{ libro.selloLibro}}
-      </small>
-      {% endif %}
-      <a href="{{ site.baseurl }}{{ libro.url }}"
-        class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+<div class="col-6 col-md-3 mb-3">
+  <a href="{{ site.baseurl }}{{ libro.url }}"
+    class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+    <div class="card bg-white shadow-sm d-flex h-100 mb-3">
+      <div class="card-header h-100">
+        {% if libro.selloLibro %}
+        <small class="text-danger text-uppercase fw-bolder text-small">
+          {{ libro.selloLibro}}
+        </small>
+        {% endif %}
         <h4 class="text-black m-0 text-capitalize">
           {{ libro.title }}
         </h4>
         <small class="text-black text-capitalize">
           por {{ libro.autorLibro }}
         </small>
-      </a>
+      </div>
     </div>
-
-    <div class="card-footer">
-      
-    </div>
-
-  </div>
+  </a>
 </div>

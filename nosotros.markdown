@@ -1,5 +1,5 @@
 ---
-layout: contacto
+layout: page
 image: cabecera_nosotros.jpg
 title: Sobre nosotros
 ---
