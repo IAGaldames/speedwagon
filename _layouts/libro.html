@@ -11,5 +11,4 @@ layout: default
 
 {% include container.html %}
 
-{% assign titulo_libros = "Libros por " | append: page.autorLibro %}
-{% include libros-section.html section_id="libros" titulo=titulo_libros filtro="autorLibro" %}
+{% include libros-section.html filtro="autorLibro" %}
