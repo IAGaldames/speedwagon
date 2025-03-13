@@ -1,4 +1,4 @@
-<article class="container-fluid bg-dark text-light my-3" id="hero-noticias">
+<article class="container bg-light rounded my-3" id="hero-noticias">
   <div class="row d-flex align-items-center">
     <div class="col-md-4 text-center">
       <h3 class="h1">Noticias</h3>
@@ -12,12 +12,12 @@
     <div class="col-md-4 text-center">
       {% for category in site.categories limit:3 %}
       <div class="bordeer-bottom mb-3">
-        <h6 class="text-danger text-uppercase fw-bolder text-small">
+        <h6 class="text-danger text-uppercase fw-bolder text-small m-0">
           <b>{{ category[0] }}:</b>
         </h6>
         <ul class="list-group list-group-flush">
           {% for post in category[1] %}
-          <li class="list-group-item bg-transparent"><a href="{{ post.url }}">{{ post.title }}</a></li>
+          <li class="list-group-item bg-transparent "><a href="{{ post.url }}" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-black">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
