@@ -1,0 +1,16 @@
+.montserrat
+  font-family: "Montserrat", sans-serif
+
+$weights: 100, 200, 300,400,500,600,700,800,900
+
+@each $weight in $weights
+  .montserrat-#{$weight}
+    @extend .montserrat
+    font-weight: #{$weight}
+    font-style: normal
+
+@each $weight in $weights
+  .montserrat-#{$weight}-italic
+    @extend .montserrat
+    font-weight: #{$weight}
+    font-style: italic

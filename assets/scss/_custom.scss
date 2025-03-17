@@ -1,15 +1,17 @@
 //Inicializar componentes inactivos
 
-@import "../../node_modules/bootstrap/scss/functions";
-@import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/functions.scss";
+@import "../../node_modules/bootstrap/scss/variables.scss";
+@import "../../node_modules/bootstrap/scss/mixins.scss";
 
 $gray-930: #111111;
 $tertiary: #3fb247;
+$orange: #FF4808;
 
 $theme-colors:map-merge($theme-colors, (
   "tertiary": $tertiary,
   "930": $gray-930,
+  "orange": $orange,
 ));
       
 @import "bootstrap";

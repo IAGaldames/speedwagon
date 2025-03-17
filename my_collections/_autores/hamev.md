@@ -6,6 +6,6 @@ generosAutor: Terror
 selloAutor:
 paisAutor:
 selloAutor:
-librosAutor: {a,b,c}
+
 imagenAutor:
 ---

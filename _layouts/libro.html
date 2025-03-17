@@ -1,14 +1,86 @@
 ---
 layout: default
 ---
+{%if page.heroLibro %}
 <section class="container-fluid bg-light">
   <div class="row my-3">
     <div class="col-md-4 mx-auto">
-      <img src="{{ site.baseurl }}/assets/img/{{ page.heroLibro }}" alt="" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/img/libros/hero/{{ page.heroLibro }}" alt="" class="img-fluid">
     </div>
   </div>
 </section>
+{% endif %}
 
-{% include container.html %}
+<div class="container my-3 montserrat">
+  <div class="row">
+    <aside class="col-md-3">
+      <div class="bg-white rounded p-3">
+        {% if page.portadaLibro %}
+        <img src="{{ site.baseurl }}/assets/img/libros/portadas/{{page.portadaLibro}}" alt=""
+          class="img-fluid rounded shadow border-light">
+        {% endif %}
+        <div class="">
+          {% if page.selloLibro %}
+          <p class="p my-1 text-muted" id="page-autorLibro">
+            <small>Sello:
+              <a href="{{ site.baseurl }}/sellos/{{page.selloLibro}}">
+                <b>{{page.selloLibro}}</b>
+              </a>
+            </small>
+          </p>
+          {% endif %}
+          {%if page.isbnLibro %}
+          <p class="p my-1 text-muted" id="page-autorLibro">
+            <small>ISBN: <b>{{page.isbnLibro}}</b></small>
+          </p>
+          {% endif %}
+          {%if page.lanzamientoLibro %}
+          <p class="p my-1 text-muted" id="page-autorLibro">
+            <small>Lanzamiento: <b>{{page.lanzamientoLibro}}</b></small>
+          </p>
+          {% endif %}
+        </div>
+      </div>
 
-{% include libros-section.html filtro="autorLibro" %}
+    </aside>
+    <article class="col-md-9 bg-white rounded p-3">
+      <h2 class="h2 text-capitalize lh-1" id="page-title">{{ page.title}}</h2>
+      <h3 class="h3 lh-1" id="page-autorLibro">
+        por
+        <a href="{{ site.baseurl }}/autores/{{ page.autorLibro | slugify }}">
+          {{ page.autorLibro }}
+        </a>
+      </h3>
+      <p>{{ page.content }}</p>
+      {% if page.buscalibreLibro %}
+      <div class="row my-3">
+        <div class="col-12 outfit">
+          <h4 class="h3">Busca<b>libre</b></h4>
+          <a href="https://buscalibre.com/{{page.buscalibreLibro}}?afiliado={{site.data.key.id}}"
+            class="btn btn-orange btn-lg text-white " target="_blank"><i class="fa-solid fa-paper-plane fa-lg"></i>
+            Comprar {{ page.title}}</a>
+        </div>
+      </div>
+      {% endif %}
+      <div class="row my-3">
+        <div class="col-12">
+          <h4><b>Comprar por yape/plin</b></h4>
+          <img src="{{ site.baseurl }}/assets/img/qr-yape.png" alt="" class="img-fluid rounded border-dark w-25">
+        </div>
+      </div>
+
+      <hr>
+
+      {% if page.descargaLibro %}
+      <a href="{{ site.baseurl }}/assets/pdf/libros/{{page.descargaLibro}}" class="btn btn-primary" target="_blank"><i
+          class="fa-solid fa-file-pdf"></i> Descargar {{ page.title}}</a>
+      {% endif %}
+
+    </article>
+  </div>
+</div>
+
+
+
+{% assign titulo_libros = "Libros por " | append: page.autorLibro %}
+{% include libros-section.html section_id="libros" titulo=titulo_libros filtro="autorLibro" %}

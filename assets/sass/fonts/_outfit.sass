@@ -1,0 +1,16 @@
+.outfit
+  font-family: "Outfit", sans-serif
+
+$weights: 100, 200, 300,400,500,600,700,800,900
+
+@each $weight in $weights
+  .outfit-#{$weight}
+    @extend .outfit
+    font-weight: #{$weight}
+    font-style: normal
+
+@each $weight in $weights
+  .outfit-#{$weight}-italic
+    @extend .outfit
+    font-weight: #{$weight}
+    font-style: italic

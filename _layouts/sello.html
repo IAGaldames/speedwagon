@@ -4,5 +4,5 @@ layout: default
 
 {% include container.html %}
 
-
-{% include libros-section.html  filtro="sello" %}
+{% assign titulo_libros = "Libros de sello " | append: page.title %}
+{% include libros-section.html  filtro="sello" titulo=titulo_libros %}

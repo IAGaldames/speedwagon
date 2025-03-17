@@ -28,6 +28,8 @@ url: "https://iagaldames.github.io/speedwagon/" # the base hostname & protocol f
 twitter_username: 
 github_username:  
 
+url_bl: 5f3005ee34e5858176c9
+
 # Build settings
 theme: minima
 plugins:
@@ -68,7 +70,8 @@ include:
 collections:
   autores:
     autor: true
-    output: true      
+    output: true
+    permalink: /:collection/:name  
   sellos:
     sello: true
     output: true 

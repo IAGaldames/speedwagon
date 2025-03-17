@@ -2,4 +2,5 @@
 layout: default
 ---
 
-{% include libros-section.html  filtro="todos" %}
+{% assign titulo_libros = "Libros de " | append: site.title %}
+{% include libros-section.html  filtro="todos"  titulo=titulo_libros %}

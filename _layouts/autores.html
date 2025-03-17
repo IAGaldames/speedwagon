@@ -31,11 +31,12 @@ layout: default
   <div class="row">
     <div class="col-12 text-center">
       <p>Conoce a los integrantes de nuestra gran familia
-      Editorial Speedwagon Media Works*</p>
+        Editorial Speedwagon Media Works*</p>
       <small class="fw-lighter">*Período: 2023-2024</small>
     </div>
   </div>
 </section>
+
 <section class="container-fluid my-3" id="cardsAutores">
   <div class="row my-3">
     <div class="col-12 text-center lh-1">
@@ -45,9 +46,12 @@ layout: default
   </div>
   <div class="row my-3" id="listaAutores">
     {% for autor in site.autores %}
+    {% assign libros_autor = site.libros | where: "autorLibro", autor.title %}
+    {% if libros_autor.size > 0 %}
     <div class="col-6 col-md-3">
       <div class="card d-flex mb-3">
-        <a href="{{ site.baseurl }}{{ autor.url }}" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+        <a href="{{ site.baseurl }}{{ autor.url  }}"
+          class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
           <div class="card-header">
             <h4>
               {{ autor.title }}
@@ -67,6 +71,7 @@ layout: default
         </a>
       </div>
     </div>
+    {% endif %}
     {% endfor %}
   </div>
 </section>

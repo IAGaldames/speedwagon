@@ -1,7 +1,7 @@
 title: Dev Speedwagon Media Works
 baseurl: ""
 css_path: "/assets/css/main.css" # CSS para desarrollo
-
+url_bl: 5f3005ee34e5858176c9
 include:
   - assets/sass
   - assets/scss
