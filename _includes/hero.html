@@ -1,4 +1,4 @@
-<article class="{{ include.container_class }} my-3" id="hero-{{ include.id }}">
+<article class="{{ include.container_class }}" id="hero-{{ include.id }}">
   <div class="row d-flex align-items-center">
     <div class="col-{{ include.img_col }} px-0 {{ include.order_img }}">
       <a class="" href="{{ include.link }}">
@@ -7,7 +7,7 @@
     </div>
     <div class="col-{{ include.text_col }} text-center {{ include.order }} ">
       <h3 class="h1">{{ include.title }}</h3>
-      <a class="btn {{ include.btn_class }} btn-lg rounded-pill" href="{{ include.link }}">{{ include.btn_text }}</a>
+      <a class="btn {{ include.btn_class }} btn-lg rounded-pill" href="{{ site.baseurl }}/{{ include.link }}">{{ include.btn_text }}</a>
     </div>
   </div>
 </article>
