@@ -7,7 +7,7 @@ portadaLibro: f556163c4ba4293076801cc264999e4d.jpg
 heroLibro: mini-ecof.png
 buscalibreLibro: libro-ecofuturismo-cuentos-sci-fi/9786124864308/p/58770619
 isbnLibro: 9786124864308
-descargaLibro: 
+descargaLibro: ecofuturismo-601886.pdf
 lanzamientoLibro: 2021
 ---
 

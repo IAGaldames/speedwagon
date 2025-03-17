@@ -7,7 +7,7 @@ portadaLibro: 7f58087f7710254b8a50fc2d56485988.jpg
 heroLibro: 
 buscalibreLibro: libro-deathward/9786124864346/p/58770666
 isbnLibro: 9786124864346
-descargaLibro: 
+descargaLibro: deathward-660258.pdf
 lanzamientoLibro: 2022
 ---
 Dai N. Castillo Augusto Murillo De Los Ríos Gaspar Paredes Eva Van Kreimmer Eduardo Omar Honey Carlos De La Torre Paredes Juan Pablo Goñi Israel Montalvo Julio Cevasco Connie Tapia Monroy Ariel F. Cambronero Aldahir Mendoza Christiam G. Buchel

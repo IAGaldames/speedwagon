@@ -7,7 +7,7 @@ portadaLibro: 54578e94af9430ebb95af63dd371f191.jpg
 heroLibro: 
 buscalibreLibro: libro-cyberterror-reset/9786124969423/p/62891005
 isbnLibro: 9786124969423
-descargaLibro: 
+descargaLibro: cyberterror-reset-672308.pdf
 lanzamientoLibro: 2021
 ---
 
