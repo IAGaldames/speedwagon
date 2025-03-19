@@ -2,10 +2,7 @@
 layout: autor
 title: Sowon Kimdred
 posicion: Autor
-generosAutor: Fantasía
-selloAutor:
-paisAutor:
-selloAutor:
-
+generosAutor: 
+FantasíapaisAutor: Chile
 imagenAutor:
 ---

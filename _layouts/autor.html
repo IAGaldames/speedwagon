@@ -1,7 +1,23 @@
 ---
 layout: default
 ---
-{% include container.html %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-3">
+      {% if page.imagenAutor %}
+      <img src="{{ site.baseurl }}/assets/img/autores/{{ page.imagenAutor }}" class="img-fluid rounded-circle" alt="{{ page.title }}">
+    </div>
+    <div class="col-9">
+      {% include container.html %}
+    </div>
+    {% else %}
+    <div class="col-12">
+      {% include container.html %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+
 
 {% assign titulo_libros = "Libros por " | append: page.title %}
-{% include libros-section.html  filtro="autor" titulo=titulo_libros %}
+{% include libros-section.html filtro="autor" titulo=titulo_libros %}

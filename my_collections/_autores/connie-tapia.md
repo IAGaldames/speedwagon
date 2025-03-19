@@ -2,10 +2,9 @@
 layout: autor
 title: Connie Tapia
 posicion: 
-generosAutor: Narrativa
-selloAutor:
-paisAutor:
-selloAutor:
-
+generosAutor: 
+Narrativa:
+paisAutor: Perú
 imagenAutor:
+
 ---

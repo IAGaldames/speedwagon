@@ -3,9 +3,6 @@ layout: autor
 title: Armando Rosselot
 posicion: 
 generosAutor: Ciencia Ficción
-selloAutor:
-paisAutor:
-selloAutor:
-
+paisAutor: Chile
 imagenAutor:
 ---

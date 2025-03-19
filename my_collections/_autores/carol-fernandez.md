@@ -2,10 +2,7 @@
 layout: autor
 title: Carol Fernández
 posicion: 
-generosAutor: Fantasía
-selloAutor:
-paisAutor:
-selloAutor:
-
+generosAutor: 
+FantasíapaisAutor: Perú
 imagenAutor:
 ---
