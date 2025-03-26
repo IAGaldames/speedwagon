@@ -8,7 +8,7 @@ heroLibro:
 buscalibreLibro: libro-corceles-azules/9786124969409/p/62891003
 isbnLibro: 9786124969409
 descargaLibro: 
-lanzamientoLibro: 
+lanzamientoLibro: 2024-06-06
 ---
 La ciudad distópica de Santiago de Neo Extremadura sirve de fondo para doce historias, publicadas a lo largo de cinco años en diversas revistas, tanto en inglés como en español, que poco a poco mapean una realidad tecnológica y obscura.
 Personajes periféricos no abandonan la esperanza en una urbe decadente, pero terminan explorando la soledad, la alienación y la muerte en un mundo cruel y de fracasos frecuentes.
