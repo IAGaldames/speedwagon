@@ -1,0 +1,27 @@
+/* POSICIONES */
+
+// Definir un mapa de posiciones
+$positions: (
+  'top',
+  'bottom',
+  'left',
+  'right',
+);
+
+@for $i from 1 through 99 {
+  @each $position in $positions {
+    .#{$position}-#{$i} {
+      #{$position}: #{$i}+'%';
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  @for $i from 1 through 99 {
+    @each $position in $positions {
+      .#{$position}-md-#{$i} {
+        #{$position}: #{$i}+'%' !important;
+      }
+    }
+  }
+}

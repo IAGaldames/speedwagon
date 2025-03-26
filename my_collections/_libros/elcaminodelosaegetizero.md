@@ -8,7 +8,7 @@ heroLibro: mini-aeg.png
 buscalibreLibro: libro-el-camino-de-los-aegeti-zero/9786124908545/p/58770682
 isbnLibro: 9786124908545
 descargaLibro: 
-lanzamientoLibro: 2023
+lanzamientoLibro: 2023-01-01
 ---
 Durante miles de años, el mundo ha sido protegido por Orbis Tlon Oz, una organización que vela por la correcta sucesión de eventos para la supervivencia de la raza humana. Ellos dirigen el accionar de los Aegeti: superhumanos que pueden utilizar a voluntad su energía espiritual y resguardan la realidad.
 Sin embargo, la era pacífica ha terminado. La Tierra es un campo de batalla en el cual, los que quieren salvar el mundo, se enfrentarán a Julian Spiegel sin éxito: pues serán derrotados por el monstruoso poder que mana de su brazo izquierdo.
