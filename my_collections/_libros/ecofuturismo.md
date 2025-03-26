@@ -8,7 +8,7 @@ heroLibro: mini-ecof.png
 buscalibreLibro: libro-ecofuturismo-cuentos-sci-fi/9786124864308/p/58770619
 isbnLibro: 9786124864308
 descargaLibro: ecofuturismo-601886.pdf
-lanzamientoLibro: 2021
+lanzamientoLibro: 2021-01-01
 ---
 
 Dai N. Castillo, Lisa Carrasco, Silvia Alejandra Fernández, Augusto Murillo de los Ríos, Daniel Salvo, Leysa Yañez, Mariangela Ugarelli, Manuel Alonso Navazar, Bruno C. Tello, Rocío Benavides, José Guich Rodríguez, Gaspar Paredes & Poldark Mego

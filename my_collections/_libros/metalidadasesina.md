@@ -8,7 +8,7 @@ heroLibro: mini-menta.png
 buscalibreLibro: libro-mentalidad-asesina-una-cronica-sobre-el-catalizador/9786124802430/p/58770601
 isbnLibro: 9786124802430
 descargaLibro: 
-lanzamientoLibro: 
+lanzamientoLibro: 2024-01-01
 ---
 Mariana Silva tiene la vida perfecta. Dirige el área legal de una de las empresas más importantes del planeta y utiliza cualquier recurso con tal de lograr sus objetivos; ya que no existe persona capaz de competir contra su carácter fuerte y arriesgado. O eso creía. Mariana ve su castillo de naipes desmoronarse cuando secuestran a sus dos hijos y las personas relacionadas a ella comienzan a ser brutalmente asesinadas.
 

@@ -8,7 +8,7 @@ heroLibro:
 buscalibreLibro: libro-cyberterror-reset/9786124969423/p/62891005
 isbnLibro: 9786124969423
 descargaLibro: cyberterror-reset-672308.pdf
-lanzamientoLibro: 2021
+lanzamientoLibro: 2021-01-01
 ---
 
 Dai N. Castillo, Ariel Tenorio, Shonen Bat, Eddie Mordred, Jesús Todemun, Connie Tapia Monroy, Dara Hincapié, Augusto Murillo de los Ríos, Gaspar Paredes, Hamev, Carlos Echevarría, Edgar A. Villanueva, Eva Van Kreimmer, Javier Fontecilla y Pablo Espinoza
