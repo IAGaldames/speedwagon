@@ -7,7 +7,14 @@
     </div>
     <div class="col-{{ include.text_col }} text-center {{ include.order }} ">
       <h3 class="h1">{{ include.title }}</h3>
-      <a class="btn {{ include.btn_class }} btn-lg rounded-pill" href="{{ site.baseurl }}/{{ include.link }}">{{ include.btn_text }}</a>
+      {% if include.link %}
+      <a class="btn {{ include.btn_class }} btn-lg rounded-pill" href="{{ site.baseurl }}/{{ include.link }}">{{
+        include.btn_text }}</a>
+      {% endif %}
+      {% if include.linkExterno %}
+      <a class="btn {{ include.btn_class }} btn-lg rounded-pill" href="{{ include.linkExterno }}" target="_blank">{{ include.btn_text
+        }}</a>
+      {% endif %}
     </div>
   </div>
 </article>
