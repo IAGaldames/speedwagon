@@ -6,21 +6,23 @@
   </div>
   <div class="row">
     {% include aside-sellos.html %}
-    <div class="col-md-9">
+    <div class="col-md-10">
       <div class="row">
         {% assign sorted_libros = site.libros | sort: 'lanzamientoLibro' | reverse %}
         {% for libro in sorted_libros %}
-          {% if include.filtro == "autor" and libro.autorLibro == page.title %}
-            {% include card-libro.html %}
-          {% elsif include.filtro == "autorLibro" and libro.autorLibro == page.autorLibro %}
-            {% include card-libro.html %}
-          {% elsif include.filtro == "sello" and libro.selloLibro == page.title %}
-            {% include card-libro.html %}
-          {% elsif include.filtro == "todos" %}
-            {% include card-libro.html %}
-          {% elsif include.filtro == "descargas" and libro.descargaLibro %}
-            {% include card-libro.html %}
-          {% endif %}
+        {% if libro.autorLibro %}
+        {% if include.filtro == "autor" and libro.autorLibro == page.title %}
+        {% include card-libro.html %}
+        {% elsif include.filtro == "autorLibro" and libro.autorLibro == page.autorLibro %}
+        {% include card-libro.html %}
+        {% elsif include.filtro == "sello" and libro.selloLibro == page.title %}
+        {% include card-libro.html %}
+        {% elsif include.filtro == "todos" %}
+        {% include card-libro.html %}
+        {% elsif include.filtro == "descargas" and libro.descargaLibro %}
+        {% include card-libro.html %}
+        {% endif %}
+        {% endif %}
         {% endfor %}
       </div>
     </div>

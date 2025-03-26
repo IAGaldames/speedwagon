@@ -21,7 +21,7 @@ layout: default
           {% endif %}
           <div class="">
             {% if page.selloLibro %}
-            <p class="p my-1 text-muted" id="page-autorLibro">
+            <p class="p my-1 text-muted" id="page-selloLibro">
               <small>Sello:
                 <a href="{{ site.baseurl }}/sellos/{{page.selloLibro}}">
                   <b>{{page.selloLibro}}</b>
@@ -30,12 +30,12 @@ layout: default
             </p>
             {% endif %}
             {%if page.isbnLibro %}
-            <p class="p my-1 text-muted" id="page-autorLibro">
+            <p class="p my-1 text-muted" id="page-isbnLibro">
               <small>ISBN: <b>{{page.isbnLibro}}</b></small>
             </p>
             {% endif %}
             {%if page.lanzamientoLibro %}
-            <p class="p my-1 text-muted" id="page-autorLibro">
+            <p class="p my-1 text-muted" id="page-lanzamientoLibro">
               <small>Lanzamiento: <b>{{page.lanzamientoLibro}}</b></small>
             </p>
             {% endif %}
@@ -45,7 +45,7 @@ layout: default
       </aside>
       <article class="col-md-9 bg-white rounded p-3">
         <h2 class="h3 text-capitalize lh-1" id="page-title">{{ page.title}}</h2>
-        <h3 class="h5 lh-1" id="page-autorLibro">
+        <h3 class="h5 lh-1 fw-light" id="page-autorLibro">
           por
           <a href="{{ site.baseurl }}/autores/{{ page.autorLibro | slugify: " latin" }}" class="text-dark">
             {{ page.autorLibro }}

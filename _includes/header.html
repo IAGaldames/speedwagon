@@ -24,10 +24,23 @@
                   <a class="nav-link" href="{{ site.baseurl }}/descargas">Descargas</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{{ site.baseurl }}/sellos">Sellos</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link " href="{{ site.baseurl }}/autores">Autores</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Sellos
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="{{ site.baseurl }}/sellos">Todos</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    {% for sello in site.sellos %}
+                    <li><a class="dropdown-item" href="{{ site.baseurl }}{{ sello.url }}">{{ sello.title }} </a></li>
+                    {% endfor %}
+
+                  </ul>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -38,7 +51,7 @@
                     <li><a class="dropdown-item" href="{{ site.baseurl }}/contacto">Contacto</a></li>
                     <li><a class="dropdown-item" href="{{ site.baseurl }}/manuscritos">Manuscritos</a></li>
                     <li><a class="dropdown-item" href="{{ site.baseurl }}/nosotros">Nosotros</a></li>
-                   
+
                   </ul>
                 </li>
                 <li class="nav-item border-start">
