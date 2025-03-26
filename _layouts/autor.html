@@ -1,11 +1,20 @@
 ---
 layout: default
 ---
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-3">
+<div class="container-fluid mb-3">
+  <div class="row bg-white py-3 shadow d-flex align-items-center">
+    {% if page.imagenAutor or page.urlAutor %}
+    <div class="col-3 text-center">
       {% if page.imagenAutor %}
-      <img src="{{ site.baseurl }}/assets/img/autores/{{ page.imagenAutor }}" class="img-fluid rounded-circle" alt="{{ page.title }}">
+      <img src="{{ site.baseurl }}/assets/img/autores/{{ page.imagenAutor }}" class="img-fluid rounded-circle w-100"
+        alt="{{ page.title }}">
+      {% else %}
+      <img src="{{ site.baseurl }}/assets/img/speedwagon.jpg" class="img-fluid rounded-circle w-100"
+        alt="{{ page.title }}">
+      {% endif %}
+      {% if page.urlAutor %}
+      <a href="{{page.urlAutor}}" target="_blank" rel="noopener noreferrer">{{page.urlAutor}}</a>
+      {% endif %}
     </div>
     <div class="col-9">
       {% include container.html %}

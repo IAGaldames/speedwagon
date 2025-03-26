@@ -26,7 +26,7 @@
 					{% endif %}
 					{% if page.autorLibro %}
 					<div class="col-12 text-center mb-3" id="autorLibro">
-						<h2 class="h2 lh-1" id="page-autorLibro">por <a href="{{ site.baseurl }}/autores/{{ page.autorLibro | slugify }}">
+						<h2 class="h2 lh-1" id="page-autorLibro">por <a href="{{ site.baseurl }}/autores/{{ page.autorLibro | slugify: "latin" }}">
 							{{ page.autorLibro }}
 						</a></h2>
 					</div>

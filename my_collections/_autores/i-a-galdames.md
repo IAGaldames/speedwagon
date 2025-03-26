@@ -3,10 +3,9 @@ layout: autor
 title: I.A. Galdames
 posicion: 
 generosAutor: Ciencia Ficción
-
 paisAutor: Chile
-
 imagenAutor: 16542460.jpg
+urlAutor: https://ignaciogaldames.com
 ---
 I. A. Galdames, nacido en Chile en 1987, es un escritor de ciencia ficción, cyberpunk, caminante y desarrollador web autodidacta.
 
