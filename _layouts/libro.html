@@ -44,10 +44,10 @@ layout: default
 
     </aside>
     <article class="col-md-9 bg-white rounded p-3">
-      <h2 class="h2 text-capitalize lh-1" id="page-title">{{ page.title}}</h2>
-      <h3 class="h3 lh-1" id="page-autorLibro">
+      <h2 class="h3 text-capitalize lh-1" id="page-title">{{ page.title}}</h2>
+      <h3 class="h5 lh-1" id="page-autorLibro">
         por
-        <a href="{{ site.baseurl }}/autores/{{ page.autorLibro | slugify }}">
+        <a href="{{ site.baseurl }}/autores/{{ page.autorLibro | slugify: "latin" }}" class="text-dark">
           {{ page.autorLibro }}
         </a>
       </h3>
@@ -84,3 +84,6 @@ layout: default
 
 {% assign titulo_libros = "Libros por " | append: page.autorLibro %}
 {% include libros-section.html section_id="libros" titulo=titulo_libros filtro="autorLibro" %}
+
+{{page.selloLibro}}
+{% include libros-section.html section_id="libros" titulo=titulo_libros  filtro="sello" %}
