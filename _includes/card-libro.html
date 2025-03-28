@@ -11,15 +11,14 @@
       {% else %}
       <div class="card bg-white shadow-sm d-flex h-100 mb-3 overflow-hidden">
       {% endif %}
-      <div class="card-image"
-        style="background-image: url({{ site.baseurl }}/assets/img/libros/portadas/{{libro.portadaLibro}});">
+      <div class="card-image text-center">
 
         {% if difference <= thirty_days %} <div
           class="card-image-overlay position-absolute bg-dark bg-opacity-25 fw-bold montserrat text-light fs-9 top-1 border border-white px-2 shadow-sm rounded-end"
           style="backdrop-filter: blur(3px) grayscale(10%);"><small>lanzamiento</small></div>
       {% endif %}
       <img src="{{ site.baseurl }}/assets/img/libros/portadas/{{libro.portadaLibro}}" alt=""
-        class="img-fluid rounded shadow border-light">
+        class="img-fluid rounded shadow border-light w-100">
 </div>
 <div class="card-body pb-0 h-100">
   {% if libro.selloLibro %}
