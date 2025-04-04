@@ -22,6 +22,7 @@ layout: default
           <div class="">
             {% if page.selloLibro %}
             <p class="p my-1 text-muted" id="page-selloLibro">
+              <i class="fa-solid fa-stamp"></i>
               <small>Sello:
                 <a href="{{ site.baseurl }}/sellos/{{page.selloLibro}}">
                   <b>{{page.selloLibro}}</b>
@@ -31,12 +32,34 @@ layout: default
             {% endif %}
             {%if page.isbnLibro %}
             <p class="p my-1 text-muted" id="page-isbnLibro">
+              <i class="fa-solid fa-barcode"></i>
               <small>ISBN: <b>{{page.isbnLibro}}</b></small>
             </p>
             {% endif %}
             {%if page.lanzamientoLibro %}
             <p class="p my-1 text-muted" id="page-lanzamientoLibro">
+              <i class="fa-solid fa-calendar"></i>
               <small>Lanzamiento: <b>{{page.lanzamientoLibro}}</b></small>
+            </p>
+            {% endif %}
+            {%if page.goodreadsLibro %}
+            <p class="p my-1 text-muted" id="page-selloLibro">
+              <i class="fa-brands fa-goodreads"></i>
+              <small>Goodreads:
+                <a href="http://www.goodreads.com/{{page.goodreadsLibro }}" target="_blank">
+                  <b>{{page.title}}</b>
+                </a>
+              </small>
+            </p>
+            {% endif %}
+            {%if page.buscalibreLibro %}
+            <p class="p my-1 text-muted" id="page-selloLibro">
+              <i class="fa-solid fa-paper-plane"></i>
+              <small>Buscalibre:
+                <a href="http://www.buscalibre.com/{{page.buscalibreLibro }}" target="_blank">
+                  <b>{{page.title}}</b>
+                </a>
+              </small>
             </p>
             {% endif %}
           </div>

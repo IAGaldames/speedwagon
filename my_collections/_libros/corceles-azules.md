@@ -6,6 +6,7 @@ autorLibro: I.A. Galdames
 portadaLibro: 228d34ffb534bd8bae3aa889df3d43f2.jpg
 heroLibro: 
 buscalibreLibro: libro-corceles-azules/9786124969409/p/62891003
+goodreadsLibro: book/show/216956775-corceles-azules
 isbnLibro: 9786124969409
 descargaLibro: 
 lanzamientoLibro: 2024-06-06
